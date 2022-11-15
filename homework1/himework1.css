@@ -18,7 +18,8 @@ header{
 }
 
 .logo{
-  padding-top: 10px
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 #one{
@@ -44,6 +45,9 @@ ul.links-header li {
 
 .Jumbotorn{
   height: 403px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
   background: url(image.png);
 }
 
