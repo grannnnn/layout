@@ -1,0 +1,17 @@
+@import "nav-container.css";
+@import "section_1.css";
+@import "section_2.css";
+@import "section_3.css";
+@import "section_4.css";
+@import "section_5.css";
+@import "section_6.css";
+@import "section_7.css";
+@import "section_8.css";
+@import "section_9.css";
+@import "footer.css";
+
+@font-face {
+	font-family: 'Fraunces';
+	src: local('Fraunces'),
+		url(/font/Fraunces_72pt-Black.ttf);
+}

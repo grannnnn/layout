@@ -1,0 +1,25 @@
+#section_five{
+  padding-top: 120px;
+padding-bottom: 120px;
+}
+
+.two-grid{
+  display: grid;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  grid-column-gap: 32px;
+  grid-template-columns: 1fr 2fr;
+}
+
+.fife-grid{
+  display: grid;
+  width: 100%;
+  grid-column-gap: 32px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+#h22{
+  font-size: 42px;
+}

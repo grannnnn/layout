@@ -1,0 +1,26 @@
+.three-grid{
+  position: relative;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  display: grid;
+  width: 100%;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.yellow-card{
+  background-color: #faea73;
+  padding: 32px 32px 24px;
+}
+
+.blue-card{
+  padding: 32px 32px 24px;
+  background-color: #cceff6;
+}
+
+.pink-card{
+    padding: 32px 32px 24px;
+    background-color: #f7cedc;
+}

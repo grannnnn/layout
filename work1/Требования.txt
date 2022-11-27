@@ -1,0 +1,12 @@
+Это одностраничный сайт, для школьника.
+Нужно дописать подвал HTML.
+Оформить сайт с помощью CSS.
+Как оформлять CSS:
+- для каждой секции - отдельный файл CSS.
+- Пример: section_one --> section_1.css
+section_two --> section_2.css
+и так далее.
+
+
+Пример стилей из этого сайта: https://whirl-website.webflow.io/
+Макет из Фигмы: https://www.figma.com/file/zR45yFHEZaTRzxHn3qBtbK/Whirl?node-id=0%3A1

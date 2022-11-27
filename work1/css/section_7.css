@@ -1,0 +1,14 @@
+#section_seven{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.text-box{
+  max-width: 650px;
+  margin-bottom: 68px;
+}
+
+.four-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
