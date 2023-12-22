@@ -1,0 +1,387 @@
+/* general */
+body{
+  background: #1B1B1B;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Stolzl;
+  font-style: normal;
+  max-width: 1204px;
+}
+
+
+/* fonts */
+@font-face {
+    font-family: 'Stolzl';
+    src: local('font/Stolzl Book'), local('font/Stolzl-Book'),
+        url('font/Stolzl-Book.woff2') format('woff2'),
+        url('font/Stolzl-Book.woff') format('woff'),
+        url('font/Stolzl-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+      font-family: 'Stolzl Bold';
+      src: local('font/Stolzl Regular'), local('font/Stolzl Regular'),
+          url('font/Stolzl-Regular.woff2') format('woff2'),
+          url('font/Stolzl-Regular.woff') format('woff'),
+          url('font/Stolzl-Regular.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+.font-one{
+  color: #9F9F9F;
+  font-family: Stolzl;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.font-two{
+  color: #9F9F9F;
+  font-family: Stolzl;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.font-three{
+  color: #F9F9F9;
+  font-family: Stolzl;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.font-four{
+  color: #F9F9F9;
+  font-family: Stolzl Bold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.font-five{
+  color: #F9F9F9;
+  font-family: Stolzl;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.font-bold{
+  color: #F9F9F9;
+  font-family: Stolzl Bold;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+
+/* car-card */
+
+  /* photo-slider */
+.mini-slide-car-card-row{
+  margin-bottom: 20px;
+}
+
+.mini img{
+  border-radius: 12px;
+  width: 100%;
+}
+
+.mini{
+  margin-top: 20px;
+}
+
+.slide-car-card img{
+  width: 100%;
+  border-radius: 16px;
+}
+
+.active img{
+  opacity: 0.4;
+}
+
+.mini-slide-car-card{
+  padding-left: 10px !important;
+padding-right: 10px !important;
+}
+
+.slider-car-card, .slide-car-card-modal{
+  position: relative;
+}
+
+.prev, .next, .prev-modal, .next-modal{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  color: black;
+  padding: 10px 15px;
+  background: #ffffff7d;
+  border-radius: 8px;
+}
+
+
+.prev a, .next a, .prev-modal a, .next-modal a{
+  color: black;
+  text-decoration: none;
+}
+
+.next{
+  right: 5%;
+}
+
+.prev{
+  left: 5%;
+}
+
+.modal-dialog{
+  max-width: 100%;
+}
+
+.modal-content{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.mini-modal{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 865px;
+}
+
+.mini-modal img{
+  border-radius: 12px;
+  width: 100%;
+}
+
+.slide-car-card-modal img{
+  width: 100%;
+  border-radius: 16px;
+}
+
+.active-modal img{
+  border: 4px solid red;
+}
+
+.prev-modal{
+  left: 5%;
+  width: 41px;
+}
+
+.next-modal{
+  right: 5%;
+  width: 41px;
+}
+
+.btn-close{
+  border-radius: 8px;
+  background: #282828;
+  padding: 10px;
+  position: absolute;
+  left: 95%;
+  height: 24px;
+  width: 24px;
+  opacity: 1 !important;
+  z-index: 2;
+}
+  /* car-description */
+
+#car-description, #car-description-button{
+  margin-top: 40px;
+}
+
+#car-description-button{
+  height: 62px;
+  width: 210px;
+  border-radius: 12px;
+  background: #E42320;
+  border: none;
+  color: #F9F9F9;
+  font-family: Stolzl Bold;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.desc{
+  margin-bottom: 12px;
+}
+
+.car-description{
+  margin-left: 80px;
+}
+
+
+/* feedback */
+
+#feedback{
+  margin-top: 80px;
+  border-radius: 16px;
+  background: #282828;
+  padding: 24px;
+  position: relative;
+}
+
+.feedback-form-btn{
+  width: 234px;
+  height: 45px;
+  margin-top: 26px;
+  border-radius: 12px;
+  background: #464646;
+  border: none;
+  color: #9F9F9F;
+  font-family: Stolzl Bold;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.feedback-input{
+  height: 44px;
+  padding: 12px 16px;
+  border-radius: 12px;
+  background: #464646;
+  border: none;
+  color: #9F9F9F;
+}
+
+#feedback span{
+  color: #3696FE;
+}
+
+.feedback-image {
+  position: absolute;
+  top: 24px;
+  right: 5%;
+  mix-blend-mode: luminosity;
+}
+
+.feedback-image2 {
+  position: absolute;
+  top: 24px;
+  right: 5.4%;
+}
+
+.card-car-dragon {
+  position: absolute;
+  mix-blend-mode: lighten;
+  top: -43%;
+  z-index: -1;
+  left: -9%;
+}
+
+.adaptive-feedback{
+  display: none;
+}
+/* adaptive */
+
+@media (max-width: 1245px) {
+  #car-card, #feedback{
+    margin-left: 50px;
+  }
+  .car-description {
+    margin-left: 18px;
+  }
+  .catalog{
+    margin-left: 24px;
+  }
+
+  #feedback{
+    margin-right: 50px;
+  }
+
+  #feedback .col-8 .col-4{
+    width: 40.3%;
+
+  }
+}
+
+
+@media (max-width: 1155px) {
+  .car-description {
+      margin-left: 23px;
+  }
+
+}
+
+@media (max-width: 1000px) {
+  body{
+    max-width: 90%;
+  }
+
+  .car-description {
+      margin-left: 0px;
+      flex: none;
+  }
+
+  .car-description{
+    margin-top: 24px;
+  }
+
+  .car-description{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .font-bold {
+    font-size: 40px;
+  }
+
+  #car-card {
+    margin-left: 31px;
+  }
+
+  .font-two, .font-three, .font-one, .font-three, .font-five, #car-description-button, .feedback-form-btn {
+    font-size: 24px;
+  }
+
+  #feedback-form-btnn{
+    width: 100%;
+  }
+
+  .feedback-image-class{
+    display: none;
+  }
+
+  #feedback{
+    padding: 48px;
+  }
+
+  #feedback .col-8{
+    width: 101.7%;
+  }
+
+  #feedback .font-three{
+    margin-top: 16px !important;
+  }
+
+  #feedback .col-8 .col-4{
+    width: 88.3%;
+    margin-top: 24px;
+  }
+
+  .feedback-form-btn, .feedback-input, #car-description-button{
+    width: 100%;
+    height: 77px;
+  }
+
+  #feedback form input{
+    margin-bottom: 16px !important;
+  }
+
+  .adaptive-none{
+    display: none;
+  }
+
+  .adaptive-feedback{
+    display: block;
+  }
+
+}

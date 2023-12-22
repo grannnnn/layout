@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="static/main.css">
+
+  </head>
+  <body>
+    <!-- заглушка -->
+    <div class="row mt-5"></div>
+    <!---->
+    <div class="row font-one">
+      <div class="col catalog">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M8.29289 12.7072C7.90237 12.3167 7.90237 11.6835 8.29289 11.293L13.9498 5.63616C14.3403 5.24563 14.9735 5.24563 15.364 5.63616C15.7545 6.02668 15.7545 6.65985 15.364 7.05037L10.4142 12.0001L15.364 16.9498C15.7545 17.3404 15.7545 17.9735 15.364 18.3641C14.9735 18.7546 14.3403 18.7546 13.9498 18.3641L8.29289 12.7072Z" fill="#9F9F9F"/>
+        </svg>
+        В каталог
+      </div>
+    </div>
+
+    <section id="car-card">
+      <div class="row font-bold mt-3 mb-4">
+        <div class="col">
+            MITSUBISHI OUTLANDER, 2018 г.
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <div class="slider-car-card">
+            <div class="slide-car-card" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="currentSlideModal(1)">
+              <img src="static/image/1.png" alt="">
+            </div>
+            <div class="slide-car-card" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="currentSlideModal(2)">
+              <img src="static/image/2.png" alt="">
+            </div>
+            <div class="slide-car-card" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="currentSlideModal(3)">
+              <img src="static/image/3.png" alt="">
+            </div>
+            <div class="slide-car-card" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="currentSlideModal(1)">
+              <img src="static/image/1.png" alt="">
+            </div>
+            <div class="slide-car-card" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="currentSlideModal(2)">
+              <img src="static/image/2.png" alt="">
+            </div>
+            <div class="slide-car-card" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="currentSlideModal(1)">
+              <img src="static/image/3.png" alt="">
+            </div>
+            <div class="prev" onclick="plusSlides(-1)">
+              <a class="">&#10094;</a>
+            </div>
+            <div class="next" onclick="plusSlides(1)">
+                <a class="">&#10095;</a>
+            </div>
+
+          </div>
+
+          <div class="row mini">
+            <div class="col-3 mini-slide-car-card mini-slide-car-card-row">
+              <img src="static/image/1.png" alt="" onclick="currentSlide(1)">
+            </div>
+            <div class="col-3 mini-slide-car-card">
+              <img src="static/image/2.png" alt="" onclick="currentSlide(2)">
+            </div>
+            <div class="col-3 mini-slide-car-card">
+              <img src="static/image/3.png" alt="" onclick="currentSlide(3)">
+            </div>
+            <div class="col-3 mini-slide-car-card">
+              <img src="static/image/1.png" alt="" onclick="currentSlide(4)">
+            </div>
+            <div class="col-3 mini-slide-car-card">
+              <img src="static/image/2.png" alt="" onclick="currentSlide(5)">
+            </div>
+            <div class="col-3 mini-slide-car-card">
+              <img src="static/image/3.png" alt="" onclick="currentSlide(6)">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col car-description">
+          <div id="car-price" class="font-bold">
+            от 1 315 000 ₽
+          </div>
+          <div id="car-description" class="row">
+              <div class="row">
+                <div class="col desc font-two">
+                    Пробег:
+                </div>
+                <div class=" col desc font-three">
+                    42 000 / Без пробега по РФ
+                </div>
+              </div>
+              <div class="row">
+                <div class="col desc font-two">
+                    Год выпуска:
+                </div>
+                <div class=" col desc font-three">
+                    2018 г.
+                </div>
+              </div>
+              <div class="row">
+                <div class="col desc font-two">
+                    Объем двигателя:
+                </div>
+                <div class=" col desc font-three">
+                    2 000 лс
+                </div>
+              </div>
+              <div class="row">
+                <div class="col desc font-two">
+                    Двигатель:
+                </div>
+                <div class=" col desc font-three">
+                    Бензиновый
+                </div>
+              </div>
+              <div class="row">
+                <div class="col desc font-two">
+                    Мощность:
+                </div>
+                <div class=" col desc font-three">
+                    103
+                </div>
+              </div>
+              <div class="row">
+                <div class="col desc font-two">
+                    КПП:
+                </div>
+                <div class=" col desc font-three">
+                    Автомат
+                </div>
+              </div>
+              <div class="row">
+                <div class="col desc font-two">
+                    Привод:
+                </div>
+                <div class=" col desc font-three">
+                    4WD
+                </div>
+              </div>
+              <div class="row">
+                <div class="col desc font-two">
+                    Кузов:
+                </div>
+                <div class=" col desc font-three">
+                    Кроссовер
+                </div>
+              </div>
+              <div class="row">
+                <div class="col desc font-two">
+                  Цвет:
+                </div>
+                <div class=" col desc font-three">
+                    Серый
+                </div>
+              </div>
+          <button id="car-description-button" type="button" name="button">  Оставить заявку</button>
+        </div>
+      </div>
+      <!-- modal-slider -->
+      <div class="modal" tabindex="-1" id="exampleModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 13.4144L17.6568 19.0713C18.0473 19.4618 18.6805 19.4618 19.071 19.0713C19.4615 18.6807 19.4615 18.0476 19.071 17.657L13.4142 12.0002L19.071 6.34335C19.4615 5.95283 19.4615 5.31966 19.071 4.92914C18.6805 4.53861 18.0473 4.53861 17.6568 4.92914L12 10.586L6.34309 4.92912C5.95257 4.5386 5.3194 4.5386 4.92888 4.92912C4.53836 5.31965 4.53836 5.95281 4.92888 6.34334L10.5857 12.0002L4.92888 17.6571C4.53836 18.0476 4.53836 18.6807 4.92888 19.0713C5.3194 19.4618 5.95257 19.4618 6.34309 19.0713L12 13.4144Z" fill="#F9F9F9"/>
+              </svg>
+            </button>
+          <div class="row slider-car-card-modal">
+            <div class="col slide-car-card-modal">
+              <img src="static/image/1.png" alt="">
+            </div>
+            <div class="col slide-car-card-modal">
+              <img src="static/image/2.png" alt="">
+            </div>
+            <div class="slide-car-card-modal">
+              <img src="static/image/3.png" alt="">
+            </div>
+            <div class="slide-car-card-modal">
+              <img src="static/image/1.png" alt="">
+            </div>
+            <div class="slide-car-card-modal">
+              <img src="static/image/2.png" alt="">
+            </div>
+            <div class="slide-car-card-modal">
+              <img src="static/image/3.png" alt="">
+            </div>
+            <div class="prev-modal" onclick="plusSlidesModal(-1)">
+              <a class="">&#10094;</a>
+            </div>
+            <div class="next-modal" onclick="plusSlidesModal(1)">
+                <a class="">&#10095;</a>
+            </div>
+          </div>
+
+          <div class="row mini-modal mt-3">
+            <div class="col-2 mini-slide-car-card-modal">
+              <img src="static/image/1.png" alt="" onclick="currentSlideModal(1)">
+            </div>
+            <div class="col-2 mini-slide-car-card-modal">
+              <img src="static/image/2.png" alt="" onclick="currentSlideModal(2)">
+            </div>
+            <div class="col-2 mini-slide-car-card-modal">
+              <img src="static/image/3.png" alt="" onclick="currentSlideModal(3)">
+            </div>
+            <div class="col-2 mini-slide-car-card-modal">
+              <img src="static/image/1.png" alt="" onclick="currentSlideModal(4)">
+            </div>
+            <div class="col-2 mini-slide-car-card-modal">
+              <img src="static/image/2.png" alt="" onclick="currentSlideModal(5)">
+            </div>
+            <div class="col-2 mini-slide-car-card-modal">
+              <img src="static/image/3.png" alt="" onclick="currentSlideModal(6)">
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="feedback">
+      <div class="font-bold">
+        Остались вопросы?
+      </div>
+      <div class="mt-2 font-three mb-4">
+        Оставьте свою заявку и наш менеджер свяжется с Вами для уточнения деталей.
+      </div>
+      <div class="col-8 font-five">
+        <form class="" method="post">
+          <div class="row">
+            <div class="col-4">
+              <label class="mb-2">Имя (обязательно)</label>
+              <input class="feedback-input" type="text" name="" value="" placeholder="Введите имя">
+            </div>
+            <div class="col-4">
+              <label class="mb-2">Телефон (обязательно)</label>
+              <input class="feedback-input" type="phone" name="" value="" placeholder="+7">
+            </div>
+            <div class="mt-4 adaptive-feedback">
+              Нажимая на кнопку “Отправить заявку”, Вы даете согласие на обработку <span>персональных данных</span> и соглашаетесь с <span>политикой конфиденциальности.</span>
+            </div>
+            <div class="col-4">
+              <button class="feedback-form-btn" type="submit" name="button">Оставить заявку</button>
+            </div>
+          </div>
+        </form>
+        <div class="mt-4 adaptive-none">
+          Нажимая на кнопку “Отправить заявку”, Вы даете согласие на обработку <span>персональных данных</span> и соглашаетесь с <span>политикой конфиденциальности.</span>
+        </div>
+      </div>
+      <div class="feedback-image-class">
+        <img class="feedback-image" src="static/image/feedback_photo.png" alt="">
+        <img class="feedback-image2" src="static/image/feedback_photo2.png" alt="">
+        <img class="card-car-dragon" src="static/image/img_dragon_2.png" alt="">
+      </div>
+
+
+    </section>
+
+    <script type="text/javascript" src="static/js/slide.js">
+
+    </script>
+
+  </body>
+</html>
